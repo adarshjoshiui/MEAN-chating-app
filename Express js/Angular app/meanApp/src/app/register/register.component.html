@@ -1,0 +1,32 @@
+<div class="container wrapper card">
+  <div class="card-header">
+    <h2>Register</h2>
+  </div>
+  <form action="/action_page.php">
+    <div class="card-body" style="padding: 16px">
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+      </div>
+
+      <div class="form-group">
+        <label for="pwd">Conform Password:</label>
+        <input type="password" class="form-control" id="pwdConf" placeholder="Enter password" name="pwd">
+      </div>
+    </div>
+    <div class="card-footer">
+      <div align="center">
+        <button type="submit" class="btn btn-primary">Register</button> &nbsp;&nbsp;&nbsp;
+        <button type="reset" class="btn btn-primary">Reset</button>
+      </div>
+      <div align='center'>
+        <a routerLink='/login'>I have already a account</a>
+      </div>
+    </div>
+  </form>
+</div>
